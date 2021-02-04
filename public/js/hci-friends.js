@@ -14,11 +14,11 @@ function initializePage() {
 }
 
 //new function
-function friendClick(e){
-	e.preventDefult();
-	var name = $(this).text()
-	$("friends.class").click(anagrammedName)
-}
+// function friendClick(e){
+// 	e.preventDefult();
+// 	var name = $(this).text()
+// 	$("friends.class").click(anagrammedName)
+// }
 
 function anagrammedName(name) {
 	// Thanks, Internet Anagram Server!
